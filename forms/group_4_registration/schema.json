@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Design name",
+      "minLength": 1,
+      "maxLength": 240
+    },
+    "fabric": {
+      "type": "string",
+      "title": "Fabric",
+      "minLength": 1,
+      "maxLength": 240
+    },
+    "garment": {
+      "type": "string",
+      "enum": [
+        "Shirt",
+        "Dress",
+        "Trousers",
+        "Other"
+      ],
+      "title": "Garment type"
+    }
+  },
+  "required": [
+    "name",
+    "fabric",
+    "garment"
+  ]
+}

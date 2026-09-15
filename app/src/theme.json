@@ -1,0 +1,55 @@
+{
+  "title": "Fashion App",
+  "theme": "Fashion",
+  "entity": "design",
+  "plural": "designs",
+  "registerLabel": "Register design",
+  "followUpLabel": "Record a fitting",
+  "registrationForm": "group_4_registration",
+  "followUpForm": "group_4_followup",
+  "description": "From first sketch to final fit: give every community design its own story.",
+  "accent": "#963b76",
+  "background": "#fcf0f8",
+  "columns": [
+    {
+      "key": "name",
+      "label": "Design name"
+    },
+    {
+      "key": "fabric",
+      "label": "Fabric"
+    },
+    {
+      "key": "garment",
+      "label": "Garment type"
+    }
+  ],
+  "registrationFields": [
+    {
+      "key": "name",
+      "label": "Design name"
+    },
+    {
+      "key": "fabric",
+      "label": "Fabric"
+    },
+    {
+      "key": "garment",
+      "label": "Garment type"
+    }
+  ],
+  "followUpFields": [
+    {
+      "key": "fit",
+      "label": "How is the fit?"
+    },
+    {
+      "key": "adjustments",
+      "label": "Adjustments needed"
+    },
+    {
+      "key": "ready",
+      "label": "Ready to wear?"
+    }
+  ]
+}

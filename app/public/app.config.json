@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ode.dev/schemas/app-config-v1.json",
+  "name": "Fashion App",
+  "version": "1.0.0",
+  "observationIndexes": [
+    {
+      "key": "entity_id",
+      "path": "$.entity_id",
+      "formTypes": [
+        "group_4_followup"
+      ],
+      "enableExpressionIndex": false
+    }
+  ]
+}

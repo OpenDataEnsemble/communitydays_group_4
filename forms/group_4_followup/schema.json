@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "fit": {
+      "type": "string",
+      "enum": [
+        "Too small",
+        "Just right",
+        "Too large"
+      ],
+      "title": "How is the fit?"
+    },
+    "adjustments": {
+      "type": "string",
+      "title": "Adjustments needed",
+      "minLength": 1,
+      "maxLength": 240
+    },
+    "ready": {
+      "type": "string",
+      "enum": [
+        "Yes",
+        "Not yet"
+      ],
+      "title": "Ready to wear?"
+    },
+    "entity_id": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "entity_id",
+    "fit",
+    "adjustments",
+    "ready"
+  ]
+}
