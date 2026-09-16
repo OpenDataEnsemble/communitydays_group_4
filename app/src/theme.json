@@ -7,9 +7,9 @@
   "followUpLabel": "Record a fitting",
   "registrationForm": "group_4_registration",
   "followUpForm": "group_4_followup",
-  "description": "From first sketch to final fit: give every community design its own story.",
-  "accent": "#963b76",
-  "background": "#fcf0f8",
+  "description": "Simplifying your style, Elevating your look",
+  "accent": "#4e342e", 
+  "background": "#d7c4a9",
   "columns": [
     {
       "key": "name",
@@ -36,7 +36,9 @@
     {
       "key": "garment",
       "label": "Garment type"
-    }
+    },
+    { "key": "description", 
+    "label": "Short description" }
   ],
   "followUpFields": [
     {
